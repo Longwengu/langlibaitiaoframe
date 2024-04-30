@@ -3,9 +3,11 @@ package com.apeframe.user.cache;
 
 import com.apeframe.common.redis.init.AbstractCache;
 import com.apeframe.common.redis.util.RedisUtil;
+
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+
 
 @Component
 public class SysUserCache extends AbstractCache {

@@ -11,29 +11,29 @@
     <description>统一依赖管理</description>
 
     <properties>
-        <spring.boot.starter.version>2.4.2</spring.boot.starter.version>
-        <spring.cloud.version>2020.0.6</spring.cloud.version>
-        <java.version>1.8</java.version>
+        <spring.boot.starter.version>2.6.13</spring.boot.starter.version>
+        <spring.cloud.version>2021.0.5</spring.cloud.version>
+        <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.plugin.version>3.1</maven.plugin.version>
-        <maven.compile.source>1.8</maven.compile.source>
-        <maven.compile.target>1.8</maven.compile.target>
+        <maven.compile.source>11</maven.compile.source>
+        <maven.compile.target>11</maven.compile.target>
         <maven-assembly-plugin.version>3.1.1</maven-assembly-plugin.version>
-        <spring.boot.web.version>2.4.2</spring.boot.web.version>
-        <lombok.version>1.18.16</lombok.version>
+        <spring.boot.web.version>2.6.13</spring.boot.web.version>
+        <lombok.version>1.18.20</lombok.version>
         <swagger.ui.version>2.7.0</swagger.ui.version>
         <swagger.version>2.7.0</swagger.version>
         <knife4j.version>2.0.4</knife4j.version>
         <swagger.bootstrap.ui.version>1.9.6</swagger.bootstrap.ui.version>
-        <spring.boot.autoconfigure.version>2.4.2</spring.boot.autoconfigure.version>
-        <spring.boot.redis.version>2.4.2</spring.boot.redis.version>
-        <spring.boot.log4j.version>2.4.2</spring.boot.log4j.version>
-        <commons.pool.version>2.9.0</commons.pool.version>
+        <spring.boot.autoconfigure.version>2.6.13</spring.boot.autoconfigure.version>
+        <spring.boot.redis.version>2.6.13</spring.boot.redis.version>
+        <spring.boot.log4j.version>2.6.13</spring.boot.log4j.version>
+        <commons.pool.version>2.11.1</commons.pool.version>
         <jackson.annotations.version>2.9.0</jackson.annotations.version>
         <jackson.databind.version>2.11.4</jackson.databind.version>
         <commons.lang.version>2.6</commons.lang.version>
-        <spring.boot.jdbc.version>2.4.2</spring.boot.jdbc.version>
-        <spring.aop.version>2.4.2</spring.aop.version>
+        <spring.boot.jdbc.version>2.6.13</spring.boot.jdbc.version>
+        <spring.aop.version>2.6.13</spring.aop.version>
         <spring.boot.druid.version>1.1.21</spring.boot.druid.version>
         <mysql.connector.version>8.0.22</mysql.connector.version>
         <spring.boot.mybatis.version>3.4.0</spring.boot.mybatis.version>
@@ -44,9 +44,9 @@
         <pinyin4j.version>2.5.0</pinyin4j.version>
         <guava.version>19.0</guava.version>
         <fastjson.version>1.2.83</fastjson.version>
-        <spring.websocket.version>2.4.2</spring.websocket.version>
+        <spring.websocket.version>2.6.13</spring.websocket.version>
         <http.client.version>5.0.3</http.client.version>
-        <spring.boot.test.version>2.4.2</spring.boot.test.version>
+        <spring.boot.test.version>2.6.13</spring.boot.test.version>
         <junit.version>4.13.1</junit.version>
         <commons.lang3.version>3.8</commons.lang3.version>
         <xxl.job.version>2.3.1</xxl.job.version>

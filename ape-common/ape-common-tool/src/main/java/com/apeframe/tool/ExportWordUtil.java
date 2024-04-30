@@ -2,9 +2,11 @@ package com.apeframe.tool;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
+
+//import javax.servlet.ServletOutputStream;
+//import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URLEncoder;
 import java.util.Map;

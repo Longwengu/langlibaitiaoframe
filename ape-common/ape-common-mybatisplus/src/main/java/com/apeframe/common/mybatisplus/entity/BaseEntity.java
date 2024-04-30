@@ -5,12 +5,16 @@ import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.Date;
 
 
-@Data
+
+@Getter
+@Setter
 public class BaseEntity implements Serializable {
 
     @TableField(fill = FieldFill.INSERT)
@@ -31,4 +35,5 @@ public class BaseEntity implements Serializable {
 
     @TableField(fill = FieldFill.UPDATE)
     private String updateTime;
+
 }

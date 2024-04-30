@@ -1,9 +1,9 @@
 package com.apeframe.common.redis.util;
 
+import javax.annotation.Resource;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 @Component

@@ -2,10 +2,10 @@ package com.apeframe.common.redis.util;
 
 
 import com.apeframe.common.redis.exception.ShareLockException;
+import javax.annotation.Resource;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
